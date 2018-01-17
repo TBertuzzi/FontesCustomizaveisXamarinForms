@@ -47,6 +47,10 @@
       <string>Icon-Small@3x</string>
     </array>
     <key>UILaunchStoryboardName</key>
+    <key>UIAppFonts</key>
+    <array>
+       <string>SedgwickAveDisplay-Regular.ttf</string>
+    </array>
     <string>LaunchScreen</string>
   </dict>
 </plist>

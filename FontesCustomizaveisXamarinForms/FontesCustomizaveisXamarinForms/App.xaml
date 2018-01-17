@@ -4,7 +4,13 @@
              x:Class="FontesCustomizaveisXamarinForms.App">
 	<Application.Resources>
 
-		<!-- Application resource dictionary -->
+        <ResourceDictionary>
+            <OnPlatform x:TypeArguments="x:String" x:Key="NormalFont">
+                <On Platform="Android" Value="SedgwickAveDisplay-Regular.ttf#Sedgwick Ave Display" />
+                <On Platform="UWP" Value="/Assets/SedgwickAveDisplay-Regular.ttf#Sedgwick Ave Display" />
+                <On Platform="iOS" Value="SedgwickAveDisplay-Regular" />
+            </OnPlatform>
+        </ResourceDictionary>
 
-	</Application.Resources>
+    </Application.Resources>
 </Application>
